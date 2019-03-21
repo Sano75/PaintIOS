@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE19F23422437F3C00AB5A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F23322437F3C00AB5A01 /* AppDelegate.swift */; };
+		EE19F23622437F3C00AB5A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F23522437F3C00AB5A01 /* ViewController.swift */; };
+		EE19F23922437F3D00AB5A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE19F23722437F3D00AB5A01 /* Main.storyboard */; };
+		EE19F23B22437F3E00AB5A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE19F23A22437F3E00AB5A01 /* Assets.xcassets */; };
+		EE19F23E22437F3E00AB5A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE19F23C22437F3E00AB5A01 /* LaunchScreen.storyboard */; };
+		EE19F24922437F3E00AB5A01 /* PaintIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F24822437F3E00AB5A01 /* PaintIOSTests.swift */; };
+		EE19F25422437F3E00AB5A01 /* PaintIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F25322437F3E00AB5A01 /* PaintIOSUITests.swift */; };
+		EE19F2622243805600AB5A01 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19F2612243805600AB5A01 /* CanvasView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE19F24522437F3E00AB5A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE19F22822437F3C00AB5A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE19F22F22437F3C00AB5A01;
+			remoteInfo = PaintIOS;
+		};
+		EE19F25022437F3E00AB5A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE19F22822437F3C00AB5A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE19F22F22437F3C00AB5A01;
+			remoteInfo = PaintIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE19F23022437F3C00AB5A01 /* PaintIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE19F23322437F3C00AB5A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE19F23522437F3C00AB5A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE19F23822437F3D00AB5A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE19F23A22437F3E00AB5A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE19F23D22437F3E00AB5A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE19F23F22437F3E00AB5A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE19F24422437F3E00AB5A01 /* PaintIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE19F24822437F3E00AB5A01 /* PaintIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintIOSTests.swift; sourceTree = "<group>"; };
+		EE19F24A22437F3E00AB5A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE19F24F22437F3E00AB5A01 /* PaintIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE19F25322437F3E00AB5A01 /* PaintIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintIOSUITests.swift; sourceTree = "<group>"; };
+		EE19F25522437F3E00AB5A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE19F2612243805600AB5A01 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE19F22D22437F3C00AB5A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19F24122437F3E00AB5A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19F24C22437F3E00AB5A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE19F22722437F3C00AB5A01 = {
+			isa = PBXGroup;
+			children = (
+				EE19F23222437F3C00AB5A01 /* PaintIOS */,
+				EE19F24722437F3E00AB5A01 /* PaintIOSTests */,
+				EE19F25222437F3E00AB5A01 /* PaintIOSUITests */,
+				EE19F23122437F3C00AB5A01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE19F23122437F3C00AB5A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE19F23022437F3C00AB5A01 /* PaintIOS.app */,
+				EE19F24422437F3E00AB5A01 /* PaintIOSTests.xctest */,
+				EE19F24F22437F3E00AB5A01 /* PaintIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE19F23222437F3C00AB5A01 /* PaintIOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE19F23322437F3C00AB5A01 /* AppDelegate.swift */,
+				EE19F23522437F3C00AB5A01 /* ViewController.swift */,
+				EE19F2612243805600AB5A01 /* CanvasView.swift */,
+				EE19F23722437F3D00AB5A01 /* Main.storyboard */,
+				EE19F23A22437F3E00AB5A01 /* Assets.xcassets */,
+				EE19F23C22437F3E00AB5A01 /* LaunchScreen.storyboard */,
+				EE19F23F22437F3E00AB5A01 /* Info.plist */,
+			);
+			path = PaintIOS;
+			sourceTree = "<group>";
+		};
+		EE19F24722437F3E00AB5A01 /* PaintIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE19F24822437F3E00AB5A01 /* PaintIOSTests.swift */,
+				EE19F24A22437F3E00AB5A01 /* Info.plist */,
+			);
+			path = PaintIOSTests;
+			sourceTree = "<group>";
+		};
+		EE19F25222437F3E00AB5A01 /* PaintIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE19F25322437F3E00AB5A01 /* PaintIOSUITests.swift */,
+				EE19F25522437F3E00AB5A01 /* Info.plist */,
+			);
+			path = PaintIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE19F22F22437F3C00AB5A01 /* PaintIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE19F25822437F3E00AB5A01 /* Build configuration list for PBXNativeTarget "PaintIOS" */;
+			buildPhases = (
+				EE19F22C22437F3C00AB5A01 /* Sources */,
+				EE19F22D22437F3C00AB5A01 /* Frameworks */,
+				EE19F22E22437F3C00AB5A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintIOS;
+			productName = PaintIOS;
+			productReference = EE19F23022437F3C00AB5A01 /* PaintIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE19F24322437F3E00AB5A01 /* PaintIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE19F25B22437F3E00AB5A01 /* Build configuration list for PBXNativeTarget "PaintIOSTests" */;
+			buildPhases = (
+				EE19F24022437F3E00AB5A01 /* Sources */,
+				EE19F24122437F3E00AB5A01 /* Frameworks */,
+				EE19F24222437F3E00AB5A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE19F24622437F3E00AB5A01 /* PBXTargetDependency */,
+			);
+			name = PaintIOSTests;
+			productName = PaintIOSTests;
+			productReference = EE19F24422437F3E00AB5A01 /* PaintIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE19F24E22437F3E00AB5A01 /* PaintIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE19F25E22437F3E00AB5A01 /* Build configuration list for PBXNativeTarget "PaintIOSUITests" */;
+			buildPhases = (
+				EE19F24B22437F3E00AB5A01 /* Sources */,
+				EE19F24C22437F3E00AB5A01 /* Frameworks */,
+				EE19F24D22437F3E00AB5A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE19F25122437F3E00AB5A01 /* PBXTargetDependency */,
+			);
+			name = PaintIOSUITests;
+			productName = PaintIOSUITests;
+			productReference = EE19F24F22437F3E00AB5A01 /* PaintIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE19F22822437F3C00AB5A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sano Gharzani";
+				TargetAttributes = {
+					EE19F22F22437F3C00AB5A01 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE19F24322437F3E00AB5A01 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE19F22F22437F3C00AB5A01;
+					};
+					EE19F24E22437F3E00AB5A01 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE19F22F22437F3C00AB5A01;
+					};
+				};
+			};
+			buildConfigurationList = EE19F22B22437F3C00AB5A01 /* Build configuration list for PBXProject "PaintIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE19F22722437F3C00AB5A01;
+			productRefGroup = EE19F23122437F3C00AB5A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE19F22F22437F3C00AB5A01 /* PaintIOS */,
+				EE19F24322437F3E00AB5A01 /* PaintIOSTests */,
+				EE19F24E22437F3E00AB5A01 /* PaintIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE19F22E22437F3C00AB5A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE19F23E22437F3E00AB5A01 /* LaunchScreen.storyboard in Resources */,
+				EE19F23B22437F3E00AB5A01 /* Assets.xcassets in Resources */,
+				EE19F23922437F3D00AB5A01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19F24222437F3E00AB5A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19F24D22437F3E00AB5A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE19F22C22437F3C00AB5A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE19F23622437F3C00AB5A01 /* ViewController.swift in Sources */,
+				EE19F23422437F3C00AB5A01 /* AppDelegate.swift in Sources */,
+				EE19F2622243805600AB5A01 /* CanvasView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19F24022437F3E00AB5A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE19F24922437F3E00AB5A01 /* PaintIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE19F24B22437F3E00AB5A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE19F25422437F3E00AB5A01 /* PaintIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE19F24622437F3E00AB5A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE19F22F22437F3C00AB5A01 /* PaintIOS */;
+			targetProxy = EE19F24522437F3E00AB5A01 /* PBXContainerItemProxy */;
+		};
+		EE19F25122437F3E00AB5A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE19F22F22437F3C00AB5A01 /* PaintIOS */;
+			targetProxy = EE19F25022437F3E00AB5A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE19F23722437F3D00AB5A01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE19F23822437F3D00AB5A01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE19F23C22437F3E00AB5A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE19F23D22437F3E00AB5A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE19F25622437F3E00AB5A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE19F25722437F3E00AB5A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE19F25922437F3E00AB5A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAP18.PaintIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE19F25A22437F3E00AB5A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAP18.PaintIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE19F25C22437F3E00AB5A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAP18.PaintIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintIOS.app/PaintIOS";
+			};
+			name = Debug;
+		};
+		EE19F25D22437F3E00AB5A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAP18.PaintIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintIOS.app/PaintIOS";
+			};
+			name = Release;
+		};
+		EE19F25F22437F3E00AB5A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAP18.PaintIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaintIOS;
+			};
+			name = Debug;
+		};
+		EE19F26022437F3E00AB5A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaintIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MAP18.PaintIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaintIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE19F22B22437F3C00AB5A01 /* Build configuration list for PBXProject "PaintIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE19F25622437F3E00AB5A01 /* Debug */,
+				EE19F25722437F3E00AB5A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE19F25822437F3E00AB5A01 /* Build configuration list for PBXNativeTarget "PaintIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE19F25922437F3E00AB5A01 /* Debug */,
+				EE19F25A22437F3E00AB5A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE19F25B22437F3E00AB5A01 /* Build configuration list for PBXNativeTarget "PaintIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE19F25C22437F3E00AB5A01 /* Debug */,
+				EE19F25D22437F3E00AB5A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE19F25E22437F3E00AB5A01 /* Build configuration list for PBXNativeTarget "PaintIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE19F25F22437F3E00AB5A01 /* Debug */,
+				EE19F26022437F3E00AB5A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE19F22822437F3C00AB5A01 /* Project object */;
+}

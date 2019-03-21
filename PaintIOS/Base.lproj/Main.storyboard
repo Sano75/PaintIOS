@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PaintIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AWX-b2-sYG">
+                                <rect key="frame" x="20" y="44" width="374" height="727"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="727" id="xLz-9j-oax"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Df-CW-tMi">
+                                <rect key="frame" x="20" y="779" width="374" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" systemItem="refresh" id="bCH-uq-zo4">
+                                        <connections>
+                                            <action selector="Clear:" destination="BYZ-38-t0r" id="Vuz-td-3DZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="IGm-WO-DEX"/>
+                                    <barButtonItem id="r2m-W9-lRs">
+                                        <string key="title" base64-UTF8="YES">
+FxcXFxcXFxISwq4
+</string>
+                                        <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" id="OTd-9X-2zz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem id="Q7I-Vf-obd">
+                                        <string key="title" base64-UTF8="YES">
+FxcXFxcXFxISwq4
+</string>
+                                        <color key="tintColor" red="0.00035299638610000001" green="0.0061916133739999997" blue="0.01297360751" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" id="9qm-0l-LLO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem id="kQ9-W1-jA5">
+                                        <string key="title" base64-UTF8="YES">
+FxcXFxcXFxISwq4
+</string>
+                                        <color key="tintColor" red="0.79301089049999995" green="0.049619566728047085" blue="0.078384511792352063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" id="7uU-wZ-7Ye"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem id="zyw-tS-UyM">
+                                        <string key="title" base64-UTF8="YES">
+FxcXFxcXFxISwq4
+</string>
+                                        <color key="tintColor" red="0.11997615724249763" green="0.79301089049999995" blue="0.083688422813186114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" id="eVJ-Qp-olQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem id="yTd-2x-Zx7">
+                                        <string key="title" base64-UTF8="YES">
+FxcXFxcXFxISwq4
+</string>
+                                        <color key="tintColor" red="0.76368436786621385" green="0.79301089049999995" blue="0.056680310005816643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" id="uoP-sg-Msl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem id="USB-nC-Brh">
+                                        <string key="title" base64-UTF8="YES">
+FxcXFxcXFxISwq4
+</string>
+                                        <color key="tintColor" red="0.02124196477" green="0.37744125719999999" blue="0.79301089049999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="changeColor:" destination="BYZ-38-t0r" id="Yxa-q5-0Oz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="nAQ-iC-TaF"/>
+                                    <barButtonItem title="+" id="hp0-oB-iQw">
+                                        <color key="tintColor" red="0.02124196477" green="0.37744125719999999" blue="0.79301089049999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="plusLineWidth:" destination="BYZ-38-t0r" id="gqy-1R-5bl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="-" id="PHz-GW-dS7">
+                                        <color key="tintColor" red="0.74611398959999997" green="0.25467473400000001" blue="0.27271680799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="minusLineWidth:" destination="BYZ-38-t0r" id="Nxu-UE-wq1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AWX-b2-sYG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="299-4d-jmp"/>
+                            <constraint firstItem="AWX-b2-sYG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5zG-dp-5fH"/>
+                            <constraint firstItem="0Df-CW-tMi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Edh-08-V0f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AWX-b2-sYG" secondAttribute="trailing" constant="20" id="Zb8-FH-T6N"/>
+                            <constraint firstItem="AWX-b2-sYG" firstAttribute="trailing" secondItem="0Df-CW-tMi" secondAttribute="trailing" id="bN8-aX-lt8"/>
+                            <constraint firstItem="0Df-CW-tMi" firstAttribute="top" secondItem="AWX-b2-sYG" secondAttribute="bottom" constant="8" id="wL0-Et-gFb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="canvas" destination="AWX-b2-sYG" id="0CX-hI-Ftc"/>
+                        <outlet property="changeColor" destination="r2m-W9-lRs" id="r1b-Bq-mCg"/>
+                        <outlet property="clear" destination="bCH-uq-zo4" id="HJe-Wm-Kbl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="125.22321428571428"/>
+        </scene>
+    </scenes>
+</document>
